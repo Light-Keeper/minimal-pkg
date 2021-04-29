@@ -1,0 +1,14 @@
+{
+  "name": "minimal-pkg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vadim Yanushkevich <vadik.ya@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "pkg --target node14-macos-x64 ./index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^7.1.5",
+    "pkg": "^5.1.0"
+  }
+}
